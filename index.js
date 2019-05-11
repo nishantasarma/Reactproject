@@ -1,23 +1,16 @@
 import React from "react"
 import ReactDom from "react-dom"
+
+import MyInfo from "./components/MyInfo"  //.js is the default
    
 //JSX Pseudo language javascript rendition of html
 
-function MyApp() {
 
-	return (
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-  )
-  
 }
 
 
 
 ReactDOM.render(
-  <MyApp />,
+  <MyInfo />,
   document.getElementById("root")
 )
