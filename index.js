@@ -1,16 +1,6 @@
 import React from "react"
 import ReactDom from "react-dom"
 
-import MyInfo from "./components/MyInfo"  //.js is the default
-   
-//JSX Pseudo language javascript rendition of html
+import App from "./components/App"
 
-
-}
-
-
-
-ReactDOM.render(
-  <MyInfo />,
-  document.getElementById("root")
-)
+ReactDom.render(<App/>, document.getElementById("root")
