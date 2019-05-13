@@ -22,6 +22,10 @@ function App(){
 			<main> 
 				<p>This is where most of my contents go. </p> 
 			</main>
+
+			<Footer />
 		</div> 
 	)
 }
+
+export default App
