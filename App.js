@@ -1,15 +1,15 @@
 import React from "react"
+import TodoItem from "./TodoItem"
 
-function App(){
-
-	return (
-
-		<div>
-			<header className="navbar">This is the header </h1>
-			<MainContent /> 
-			<Footer />
-		</div> 
-	)
+function App() {
+    return (
+        <div className="todo-list">
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+        </div>
+    )
 }
 
 export default App
